@@ -1,1 +1,2 @@
 # UbuntuFirstInstall
+UbuntuをDockerからインストールした後、最初にインストールするパッケージ達のまとめ。
