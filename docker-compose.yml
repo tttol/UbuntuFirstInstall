@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  ubuntu:
+    image: ubuntu-for-tcpip
+    privileged: true
+    container_name: ubuntu-for-tcpip
+    # volumes:
+    #   - ./container/usr/bin:/usr/bin
+    #   - ./container/boot:/boot
+    #   - ./container/dev:/dev
+    #   - ./container/etc:/etc
+    #   - ./container/home:/home
