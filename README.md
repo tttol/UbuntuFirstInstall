@@ -2,7 +2,8 @@
 ubuntuのDockerイメージを取得してdocker composeで起動する
 # QuickStart
 ```bash
-docker build -t ubuntu-for-tcpip
-docker compose up -d
-docker exec -it ubuntu-for-tcpip bash
+git clone https://github.com/tttol/UbuntuFirstInstall.git
+cd UbuntuFirstInstall
+docker build -t ubuntu-for-tcpip .
+docker run -it --privileged ubuntu-for-tcpip
 ```
