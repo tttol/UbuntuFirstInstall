@@ -1,6 +1,4 @@
 FROM ubuntu:latest
-# COPY ./init.sh /tmp
-# ENTRYPOINT [ "bash", "/tmp/init.sh" ]
 RUN apt-get update; \
 apt-get install -y iproute2 ; \
 apt-get install -y bash ; \
